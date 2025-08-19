@@ -7,7 +7,7 @@ import FourOFour from './components/FourOFour';
 import About from './components/About';
 const App = () => {
   return (
-    <>
+    <Fragment>
       <BrowserRouter>
         <Navbar />
         <Routes>
@@ -16,7 +16,7 @@ const App = () => {
           <Route path='/about' element={<About />} />
         </Routes>
       </BrowserRouter>
-    </>
+    </Fragment>
   )
 }
 

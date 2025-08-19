@@ -3,9 +3,9 @@ import General from './General'
 const Home = () => {
   let [data, setData] = useState(20)
   let [age, setAge] = useState(25)
-  // useEffect(()=>{
-  //   console.log("Api calling");
-  // },[data, age])
+  useEffect(()=>{
+    console.log("Api calling");
+  },[data, age])
 
   let changeValue = useMemo(() => {
     console.log("value changed");
