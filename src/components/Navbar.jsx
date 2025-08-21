@@ -8,7 +8,7 @@ const Navbar = () => {
         <div className='navbar'>
             <h1>Logo</h1>
             <ul className={`${menuchecked?"menu_mobile":"menu"}`}>
-                <li> <Link to="/">  Home </Link></li>
+                <li> <Link to="/">  Home 2 </Link></li>
                 <li> <Link to="/about">  About </Link></li>
                 <li> <Link to="#">  Services </Link></li>
                 <li> <Link to="#">  Contact </Link></li>
